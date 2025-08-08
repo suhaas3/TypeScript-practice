@@ -64,6 +64,11 @@ getApiData();
 
   return (
    <>
+   {apiData?.map(item => {
+    return (
+    <h1 key={item.id}>{item.title}</h1>
+    )
+   })}
    
    </>
   )
