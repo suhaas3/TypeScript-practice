@@ -1,9 +1,12 @@
+ import Practice from "./Components/Practice/Practice";
+
+
 
 function App() {
 
   return (
     <>
-    <h1>App</h1>
+      <Practice/>
       
     </>
   )
